@@ -1,4 +1,3 @@
-// app.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('./Database/db');
@@ -7,7 +6,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3000; 
 const secretKey = '12345678';
 
 app.use(bodyParser.json());
