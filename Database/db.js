@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: null,
-    database: "task_manager_DB"
+    database: "task-manager"
 });
 
 connection.connect((err) => {
